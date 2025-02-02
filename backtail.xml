@@ -12,12 +12,12 @@
   <Overview>A secure, minimal and lightweight container providing a backup destination (via SFTP) through Tailscale.</Overview>
   <Category>Backup: Network:FTP Network:VPN</Category>
   <WebUI/>
-  <TemplateURL/>
+  <TemplateURL>https://github.com/wazzanoski/unraid-container-templates/blob/main/backtail.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/wazzanoski/backtail/refs/heads/main/backtail.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled></DateInstalled>
+  <DateInstalled>1738454400</DateInstalled>
   <DonateText>If you appreciate my work, then please consider buying me a beer :D</DonateText>
   <DonateLink>https://www.paypal.com/donate/?business=7LTHAMWJ9Q7KW&no_recurring=0&item_name=Cure+my+thirst%21&currency_code=AUD</DonateLink>
   <DonateImg>https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif</DonateImg>
