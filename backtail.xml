@@ -15,6 +15,6 @@
   <DonateText>If you appreciate my work, then please consider buying me a beer :D</DonateText>
   <DonateLink>https://www.paypal.com/donate/?business=7LTHAMWJ9Q7KW&amp;no_recurring=0&amp;item_name=Cure+my+thirst%21&amp;currency_code=AUD</DonateLink>
   <DonateImg>https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif</DonateImg>
-  <Config Name="Backups" Target="/home/backtail" Default="/mnt/disks/BACKTAILUSB" Mode="rw,slave" Description="Destination Path for Backups." Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Backups" Target="/home/backtail" Default="/mnt/disks/BACKTAILUSB" Mode="rw,slave" Description="Destination Path for Backups. File '.ssh/authorized_keys' must exist containing SSH public key." Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Config" Target="/config" Default="/mnt/user/appdata/backtail" Mode="rw" Description="Persistent Path for Config.&#13;&#10;Contains:&#13;&#10;- Banner file&#13;&#10;- SSH Host key&#13;&#10;- Tailscale State Directory" Type="Path" Display="always" Required="true" Mask="false"/>
 </Container>
